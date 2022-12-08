@@ -56,13 +56,17 @@
     
 }
 
-.destionation{
+
+
+.destionation {
     margin: 0 20px;
-    
 }
 
 .destionation img{
-    height: 200px;
-    width: 350px;
+    height: 300px;
+    width: 400px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
     
 }
