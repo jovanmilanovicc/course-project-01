@@ -52,19 +52,39 @@
     width: 90%;
     margin: auto;
     margin-bottom: 40px;
-    justify-content: space-evenly;
+    justify-content: space-evenly;/*center ce isto raditi*/
     
 }
 
+#highlights h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+    margin: 24px 0;
 
+}
 
 .destionation {
     margin: 0 20px;
 }
 
+.destionation p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+}
+
+.destionation strong{
+    color: rgb(0, 160, 117);
+
+}
+
 .destionation img{
     height: 300px;
-    width: 400px;
+    width: 100%;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     border-radius: 10px;
     object-fit: cover;
